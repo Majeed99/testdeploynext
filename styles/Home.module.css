@@ -1,0 +1,53 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.userCard {
+  text-align: center;
+  background-color: gainsboro;
+  padding: 5px;
+}
+.details {
+  font-size: 12px;
+}
+.textCenter {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.address {
+  width: 50%;
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(230, 230, 230);
+}
+.address .title {
+  margin: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(201, 201, 201);
+}
+.company {
+  width: 50%;
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(230, 230, 230);
+}
+
+.company .title {
+  margin: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(201, 201, 201);
+}
+
+.titleOfAlbum {
+  width: max-content;
+  margin: auto;
+}
